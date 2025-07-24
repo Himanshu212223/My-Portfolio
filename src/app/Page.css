@@ -1,0 +1,267 @@
+.page {
+  padding: 20px 20px;
+  box-sizing: border-box;
+  /* background-color: tan; */
+}
+
+.headline {
+  position: relative;
+}
+
+.h1 {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  /* margin-top: 30px; */
+  margin: 20px 0;
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+.border-decore {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 6px;
+  width: 5%;
+  border-radius: 20px;
+  background-color: var(--active-color);
+}
+
+.page-content {
+  margin: 20px 0;
+  font-size: medium;
+  /* background-color: tan; */
+}
+
+.page-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 5px 0;
+  width: 49%;
+  min-height: 25vh;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  gap: 20px;
+  background-color: var(--dark-shade4);
+}
+
+.page-badge {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.badges {
+  margin: 5px 0;
+  width: auto;
+  min-height: 8vh;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  gap: 20px;
+  background-color: var(--dark-shade4);
+  transition: all 0.3s ease-in-out;
+}
+
+.badges:hover {
+  transform: translate(0, -3px);
+  transition: all 0.3s ease-in-out;
+}
+
+.details {
+  padding: 30px 0;
+  /* background-color: tan; */
+}
+
+.details-heading {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.details-header-icon {
+  padding: 12px 12px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-shade2);
+}
+
+.details-content {
+  /* background-color: tan; */
+  margin-left: 25px;
+  padding: 10px 0px;
+  border-left: 2px solid var(--dark-shade2);
+}
+
+ul li::marker {
+  color: var(--active-color); /* Bullet color */
+}
+
+li {
+  color: var(--color); /* Text color */
+  margin-left: 14px;
+  padding: 5px 35px;
+  /* margin: 20px 0; */
+  box-sizing: border-box;
+}
+
+.details-content-item {
+  margin: 5px 0;
+}
+
+.highlight {
+  color: var(--active-color);
+}
+
+/* For Blog Page */
+.blog-groups {
+  /* background-color: teal; */
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.blog-card {
+  background-color: var(--dark-shade4);
+  min-height: 52vh;
+  width: 49%;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  gap: 5px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.blog-card:hover .blog-card-heading {
+  color: var(--active-color);
+}
+
+.blog-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 30vh;
+  border-radius: 20px;
+}
+
+.blog-card-heading {
+  margin-left: 20px;
+}
+
+.blog-card-design {
+  color: var(--gray-set);
+  font-size: medium;
+  margin-left: 20px;
+}
+
+.blog-card-content {
+  font-size: medium;
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 900px) {
+  .h1 {
+    margin-top: 40px;
+  }
+  .page-cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 95%;
+  }
+
+  /* blog page */
+  .blog-groups {
+    /* background-color: teal; */
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .blog-card {
+    background-color: var(--dark-shade4);
+    min-height: 52vh;
+    width: 90%;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    gap: 5px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 425px) {
+  .h1 {
+    margin-top: 40px;
+  }
+  .page-cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 95%;
+  }
+
+  /* blog page */
+  .blog-groups {
+    /* background-color: teal; */
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .blog-card {
+    background-color: var(--dark-shade4);
+    min-height: 60vh;
+    width: 90%;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    gap: 5px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+}
