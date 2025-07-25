@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* background-color: teal; */
 }
 
 .top-profile {
@@ -133,10 +134,13 @@
   }
 }
 
+
+/* For Tablets */
+
 @media only screen and (min-width: 551px) and (max-width: 770px) {
   .profile {
     min-height: auto;
-    padding: 20px 10px;
+    padding: 0px 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,11 +154,12 @@
     flex-direction: row;
     flex-flow: row;
     gap: 20px;
+    height: auto;
     /* background-color: tan; */
   }
   .profile-pic-section {
-    height: 25vh;
-    width: 30%;
+    height: 30vh;
+    width: 50%;
     position: relative;
     /* background-color: tan; */
   }
@@ -170,7 +175,29 @@
     display: flex;
     justify-content: flex-end;
   }
+  .profile-pic-section {
+    border-radius: 30px;
+    box-sizing: border-box;
+    background-color: var(--dark-shade2);
+    height: 30vh;
+    margin: 10px 0;
+    width: 60%;
+    position: relative;
+    /* padding: 10px 10px; */
+    /* background-color: tan; */
+  }
+  .profile-basic-details {
+    /* background-color: tan; */
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: center;
+  }
 }
+
+
+/* For Smart Phones */
 
 @media only screen and (max-width: 550px) {
   .profile {
@@ -191,11 +218,24 @@
     gap: 20px;
     /* background-color: tan; */
   }
+
   .profile-pic-section {
-    height: 25vh;
-    width: 70%;
+    border-radius: 30px;
+    box-sizing: border-box;
+    background-color: var(--dark-shade2);
+    height: 30vh;
+    margin: 0px 0;
     position: relative;
+    /* padding: 10px 10px; */
     /* background-color: tan; */
+  }
+  .profile-basic-details {
+    /* background-color: tan; */
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: center;
   }
 
   .h1 {
@@ -218,7 +258,7 @@
     /* margin-left: 100px; */
     /* background-color: tan; */
     float: right;
-    width: 50%;
+    width: auto;
     display: flex;
     justify-content: flex-end;
   }

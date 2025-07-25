@@ -10,15 +10,16 @@ export default function Blogs() {
         <div className="border-decore"></div>
       </section>
 
+      {/* Blog Cards */}
       <section className="blog-groups">
 
-        <span className="blog-card">
+        <a href="https://sap-blogs-ipsm.vercel.app/" target="_blank" className="blog-card">
           {/* <iframe src="https://sap-blogs-ipsm.vercel.app/" ></iframe> */}
            <Image src={"/blogpage.png"} width={300} height={100} alt="mail-icon" className="blog-image" />
            <p className="blog-card-design">Design - Sep, 2024</p>
            <h2 className="blog-card-heading">SAP Blogs</h2>
           <p className="blog-card-content">This blog serves as a space to document and share my learning journey.</p>
-        </span>
+        </a>
 
       </section>      
     </div>

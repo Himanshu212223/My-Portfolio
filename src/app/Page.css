@@ -134,7 +134,7 @@ li {
   color: var(--active-color);
 }
 
-/* For Blog Page */
+/* ********************* For Blog Page *********************  */
 .blog-groups {
   /* background-color: teal; */
   width: 100%;
@@ -160,6 +160,8 @@ li {
   box-sizing: border-box;
   padding: 0 10px;
   cursor: pointer;
+  text-decoration: none;
+  color: var(--color);
 }
 
 .blog-card:hover .blog-card-heading {
