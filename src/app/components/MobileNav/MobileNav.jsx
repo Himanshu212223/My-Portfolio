@@ -13,9 +13,9 @@ const MobileNav = () => {
     return(
         <section className="mobile-nav">
             <ul className='ul'>
-                <li><Link href={'/'} className={`link ${pathname === '/' ? 'active': ''}`} >About</Link></li>
-                <li><Link href={'/Resume'} className={`link ${pathname === '/Resume' ? 'active': ''}`} >Resume</Link></li>
-                <li><Link href={'/Blogs'} className={`link ${pathname === '/Blogs' ? 'active': ''}`} >Blog</Link></li>
+                <li><Link href={'/'} className={`link mobile-link ${pathname === '/' ? 'active': ''}`} >About</Link></li>
+                <li><Link href={'/Resume'} className={`link mobile-link ${pathname === '/Resume' ? 'active': ''}`} >Resume</Link></li>
+                <li><Link href={'/Blogs'} className={`link mobile-link ${pathname === '/Blogs' ? 'active': ''}`} >Blog</Link></li>
             </ul>
         </section>
     );

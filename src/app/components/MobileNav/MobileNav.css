@@ -5,7 +5,16 @@
 .active{
     color: var(--active-color);
     /* color: red; */
+  }
+  
+.mobile-link:hover{
+  color: var(--active-color);
 }
+  .mobile-link:active{
+  color: var(--active-color);
+}
+
+
 
 @media only screen and (max-width: 500px) {
   .mobile-nav {
