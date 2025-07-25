@@ -235,6 +235,20 @@ li {
   }
 }
 
+@media only screen and (min-width: 100px) and (max-width: 500px) {
+  li {
+    color: var(--color); /* Text color */
+    margin-left: 8px;
+    /* padding: 5px 35px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    /* margin: 20px 0; */
+    box-sizing: border-box;
+    /* background-color: teal; */
+  }
+}
+
 @media only screen and (min-width: 100px) and (max-width: 425px) {
   .h1 {
     margin-top: 40px;
@@ -248,7 +262,7 @@ li {
 
   li {
     color: var(--color); /* Text color */
-    margin-left: 12px;
+    margin-left: 8px;
     /* padding: 5px 35px; */
     padding-top: 5px;
     padding-bottom: 5px;
