@@ -109,7 +109,7 @@
 
 .details-content {
   /* background-color: tan; */
-  margin-left: 20px;
+  margin-left: 25px;
   padding: 10px 0px;
   border-left: 2px solid var(--dark-shade2);
 }
@@ -233,7 +233,9 @@ li {
   }
 }
 
-@media only screen and (min-width: 100px) and (max-width: 425px) {
+/* @media only screen and (min-width: 100px) and (max-width: 425px) {} */
+
+@media only screen and (min-width: 100px) and (max-width: 500px) {
   .h1 {
     margin-top: 40px;
   }
@@ -268,5 +270,12 @@ li {
     padding-bottom: 20px;
     box-sizing: border-box;
     cursor: pointer;
+  }
+
+  .details-content {
+    /* background-color: tan; */
+    margin-left: 40px;
+    padding: 10px 0px;
+    border-left: 2px solid var(--dark-shade2);
   }
 }
