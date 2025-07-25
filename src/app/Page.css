@@ -109,7 +109,7 @@
 
 .details-content {
   /* background-color: tan; */
-  margin-left: 25px;
+  margin-left: 20px;
   padding: 10px 0px;
   border-left: 2px solid var(--dark-shade2);
 }
@@ -121,7 +121,10 @@ ul li::marker {
 li {
   color: var(--color); /* Text color */
   margin-left: 14px;
-  padding: 5px 35px;
+  /* padding: 5px 35px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 35px;
   /* margin: 20px 0; */
   box-sizing: border-box;
 }
