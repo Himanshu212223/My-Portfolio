@@ -1,24 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# About this Page
 
-## Getting Started
+This page has been created using `NextJS`.
 
-First, run the development server:
+To visit this page, use link - https://my-portfolio-5ubs.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Resources
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Resources for Font-
+- [Google Font](https://fonts.google.com/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Resources for icons- 
+- [Huge Icon](https://hugeicons.com/icons)
+- [Font Awesome](https://fontawesome.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+React Hooks-
+- [useState](https://react.dev/reference/react/useState) - useState is a React Hook that lets you add local state to functional components.
+
+- [usePathname](https://nextjs.org/docs/app/api-reference/functions/use-pathname) :- using usePathname hook to to access the current URL pathname.
+
 
 ## Learn More
 
