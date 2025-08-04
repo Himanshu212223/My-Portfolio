@@ -197,6 +197,54 @@ li {
   margin-left: 20px;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .blog-card {
+    background-color: var(--dark-shade4);
+    min-height: 45vh;
+    width: 49%;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    gap: 5px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color);
+  }
+}
+
+
+
+
+@media only screen and (min-width: 1440px) and (max-width: 2560px)  {
+  .blog-card {
+    background-color: var(--dark-shade4);
+    min-height: 50vh;
+    width: 49%;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    gap: 5px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color);
+  }
+}
+
+
+
+
+
+
 @media only screen and (min-width: 426px) and (max-width: 900px) {
   .h1 {
     margin-top: 40px;
