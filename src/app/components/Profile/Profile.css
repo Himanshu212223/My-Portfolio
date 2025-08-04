@@ -101,6 +101,7 @@
 }
 
 .bottom-profile-label {
+  margin-bottom: 2px;
   color: var(--gray-set);
 }
 
