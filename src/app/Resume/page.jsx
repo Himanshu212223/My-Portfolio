@@ -25,7 +25,7 @@ export default function Resume() {
             <li>
               <h3>Infosys Pvt Ltd</h3>
               <p className="details-content-item highlight">2022 - Present</p>
-              <p className="details-content-item">Upon joining the organization, I received training in Java Spring Boot for backend development, followed by HTML, CSS, JavaScript, and Node.js and React for frontend logic.</p>
+              <p className="details-content-item">Upon joining the organization, I received training in Java Spring Boot for backend development, followed by HTML, CSS, JavaScript, and Node.js frontend logic.</p>
               <p className="details-content-item">Worked as part of the development team to create a simple banking application using trained technologies.</p>
               <p className="details-content-item">Later, I was also trained in SAP Fiori UI5 for frontend and SAP CAPM for backend development.</p>
               <p className="details-content-item">Using these, I developed full-stack applications with Fiori and CAPM. In addition to development, I was responsible for administrating the SAP Cloud Platform.</p>
@@ -33,7 +33,8 @@ export default function Resume() {
             <li>
               <h3>Cognizant</h3>
               <p className="details-content-item highlight">January 2022 - May 2022</p>
-              <p className="details-content-item">I did my Intern from Cognizant Technology Solutions were I learned Java, Javascript, and HTML, CSS for Frontend.</p>
+              <p className="details-content-item">I did my Intern from Cognizant Technology Solutions were I learned HTML, CSS, JS, React JS Library for Frontend UI Development.</p>
+              <p className="details-content-item">Also learned Java with Spring Boot for Backend Development.</p>
             </li>
           </ul>
         </div>

@@ -18,8 +18,8 @@ export default function Home() {
           I am a skilled Full Stack Web Developer from Lucknow, with extensive experience in developing responsive, user-centric web applications. I focus on building solutions that are not only efficient and scalable but also visually engaging and easy to use.
         </p>
         <p>Proficient in both frontend and backend technologies, I deliver end-to-end web solutions tailored to meet real-world needs. I take pride in writing clean, maintainable code and simplifying complex challenges into streamlined, effective features.</p> */}
-        <p>Passionate FullStack Web Developer from Lucknow, deliver end-to-end web solutions tailored to meet real-world needs.</p>
-        <p>Have strong experience in developing UI and CRUD APIs, and always open to new directions of programming.Believe in continuous learning and belief are the key factors for achieving personal and professional success. </p>
+        <p>Passionate Full Stack Web Developer from Lucknow, delivering end-to-end web solutions designed to solve real-world problems.</p>
+        <p>I have strong experience in building intuitive user interfaces and developing CRUD APIs, and I am always open to exploring new areas of programming. I believe continuous learning and consistency are the key drivers of both personal and professional success.</p>
       </section>
 
       {/* Page Heading Section */}
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="card">
           <Image src={"/icons/backend.svg"} width={30} height={30} alt="mail-icon" className="icon" />
           <div>
-            <h1>Backend Development</h1>
+            <h2>Backend Development</h2>
             <p>Utilized SAP CAPM for backend development, and also proficient in building scalable services using Spring Boot and Express.</p>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function Home() {
         <div className="card">
           <Image src={"/icons/frontend.svg"} width={30} height={30} alt="mail-icon" className="icon" />
           <div>
-            <h1>Frontend Development</h1>
+            <h2>Frontend Development</h2>
             <p>Implemented frontend solutions with SAP Fiori UI5, also experienced in developing user interfaces using React.js.</p>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function Home() {
         <div className="card">
           <Image src={"/icons/cloud.svg"} width={30} height={30} alt="mail-icon" className="icon" />
           <div>
-            <h1>BTP Cloud Platform</h1>
+            <h2>BTP Cloud Platform</h2>
             <p>Experienced in administering and configuring BTP Cloud Platform, with exposure to key modules like CTMS, SBPA, and CIS, etc.</p>
           </div>
         </div>
@@ -57,7 +57,7 @@ export default function Home() {
         <div className="card">
           <Image src={"/icons/book.svg"} width={30} height={30} alt="mail-icon" className="icon" />
           <div>
-            <h1>Learning</h1>
+            <h2>Learning</h2>
             <p>Possess a strong enthusiasm for continuous learning, especially in emerging technologies. I regularly engage in upskilling to adapt to evolving project needs.</p>
           </div>
         </div>

@@ -111,6 +111,10 @@
 
 .email {
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  /* background-color: teal; */
 }
 
 .bottom-profile-content-icons {
