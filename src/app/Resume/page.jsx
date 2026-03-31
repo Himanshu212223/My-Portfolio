@@ -26,10 +26,17 @@ export default function Resume() {
               <h3>Infosys Pvt Ltd</h3>
               <p className="details-content-item highlight">2022 - Present</p>
               <p className="details-content-item">Upon joining the organization, I received training in Java Spring Boot for backend development, followed by HTML, CSS, JavaScript, and Node.js frontend logic.</p>
-              <p className="details-content-item">Worked as part of the development team to create a simple banking application using trained technologies.</p>
               <p className="details-content-item">Later, I was also trained in SAP Fiori UI5 for frontend and SAP CAPM for backend development.</p>
-              <p className="details-content-item">Using these, I developed full-stack applications with Fiori and CAPM. In addition to development, I was responsible for administrating the SAP Cloud Platform.</p>
+              
+              <p className="details-content-item">Here are the few projects which I can highlight - </p>
+              
+              <h3 className="details-content-item sub-heading">HANA DB Accelerator Application</h3>
+              
+              <p className="details-content-item">This application is designed to synchronize database records between two environments. It consumes events from Event Mesh and stores the relevant data in an entity, followed by triggering an SBPA workflow for application owner approval.</p>
+              <p className="details-content-item">Upon approval, the application retrieves entity data from both environments using configured destinations, calculates the delta between records, and updates the entity of both the environments to ensure they are in sync.</p>
             </li>
+
+
             <li>
               <h3>Cognizant</h3>
               <p className="details-content-item highlight">January 2022 - May 2022</p>

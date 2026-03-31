@@ -139,6 +139,11 @@ li {
   color: var(--active-color);
 }
 
+
+.sub-heading{
+  color: var(--subHeading);
+}
+
 /* ********************* For Blog Page *********************  */
 .blog-groups {
   /* background-color: teal; */

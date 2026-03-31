@@ -19,7 +19,8 @@ export default function Home() {
         </p>
         <p>Proficient in both frontend and backend technologies, I deliver end-to-end web solutions tailored to meet real-world needs. I take pride in writing clean, maintainable code and simplifying complex challenges into streamlined, effective features.</p> */}
         <p>Passionate Full Stack Web Developer from Lucknow, delivering end-to-end web solutions designed to solve real-world problems.</p>
-        <p>I have strong experience in building intuitive user interfaces and developing CRUD APIs, and I am always open to exploring new areas of programming. I believe continuous learning and consistency are the key drivers of both personal and professional success.</p>
+        <p>I have 3 years of experience building SAP applications using SAP Fiori UI5 for the frontend, including freestyle applications.</p> 
+        <p>Experienced in developing CAP-based backend services with OData, integration with Event Mesh, and integrating solutions with SAP Build Process Automation. Passionate about creating scalable and efficient applications. I believe continuous learning and consistency are the key drivers of both personal and professional success.</p>
       </section>
 
       {/* Page Heading Section */}
@@ -34,7 +35,7 @@ export default function Home() {
           <Image src={"/icons/backend.svg"} width={30} height={30} alt="mail-icon" className="icon" />
           <div>
             <h2>Backend Development</h2>
-            <p>Utilized SAP CAPM for backend development, and also proficient in building scalable services using Spring Boot and Express.</p>
+            <p>Leveraged SAP CAPM for backend development, including integration with Event Mesh and SAP HANA, Destination service, along with the exposure of OData services.</p>
           </div>
         </div>
 
@@ -42,7 +43,7 @@ export default function Home() {
           <Image src={"/icons/frontend.svg"} width={30} height={30} alt="mail-icon" className="icon" />
           <div>
             <h2>Frontend Development</h2>
-            <p>Implemented frontend solutions with SAP Fiori UI5, also experienced in developing user interfaces using React.js.</p>
+            <p>Developed frontend applications using SAP Fiori UI5, including freestyle applications, OData service consumption, and seamless integration with CAP-based backend services.</p>
           </div>
         </div>
 
@@ -50,7 +51,7 @@ export default function Home() {
           <Image src={"/icons/cloud.svg"} width={30} height={30} alt="mail-icon" className="icon" />
           <div>
             <h2>BTP Cloud Platform</h2>
-            <p>Experienced in administering and configuring BTP Cloud Platform, with exposure to key modules like CTMS, SBPA, and CIS, etc.</p>
+            <p>Experienced in administering and configuring BTP Cloud Platform, with exposure to key modules like CTMS, SBPA, and IAS, etc.</p>
           </div>
         </div>
 
@@ -76,16 +77,36 @@ export default function Home() {
           <Image src={"/icons/sap.png"} width={50} height={30} alt="SAP-icon" />
           <p>SAP</p>
         </div>
+        
+        <div className="badges">
+          <Image src={"/icons/sap.png"} width={50} height={30} alt="SAP-icon" />
+          <p>Fiori UI5</p>
+        </div>
+        
+        <div className="badges">
+          <Image src={"/icons/sap.png"} width={50} height={30} alt="SAP-icon" />
+          <p>SAP CAPM</p>
+        </div>
+        
+        <div className="badges">
+          <Image src={"/icons/sap.png"} width={50} height={30} alt="SAP-icon" />
+          <p>Event Mesh</p>
+        </div>
+        
+        <div className="badges">
+          <Image src={"/icons/sap.png"} width={50} height={30} alt="SAP-icon" />
+          <p>SAP BPA</p>
+        </div>
 
         <div className="badges">
           <Image src={"/icons/nodejs.png"} width={30} height={30} alt="NodeJS-icon" className="badge-icon" />
           <p>Node JS</p>
         </div>
 
-        <div className="badges">
+        {/* <div className="badges">
           <Image src={"/icons/express.png"} width={60} height={30} alt="ExpressJS-icon" />
           <p>Express JS</p>
-        </div>
+        </div> */}
 
         <div className="badges">
           <Image src={"/icons/js.png"} width={30} height={30} alt="JS-icon" className="badge-icon" />
@@ -97,10 +118,10 @@ export default function Home() {
           <p>Next JS</p>
         </div>
 
-        <div className="badges">
+        {/* <div className="badges">
           <Image src={"/icons/react.png"} width={30} height={30} alt="ReactJS-icon" className="badge-icon " />
           <p>React JS</p>
-        </div>
+        </div> */}
 
         <div className="badges">
           <Image src={"/icons/github.png"} width={30} height={30} alt="GitHub-icon" className="icon" />
@@ -112,10 +133,10 @@ export default function Home() {
           <p>Git</p>
         </div>
 
-        <div className="badges">
+        {/* <div className="badges">
           <Image src={"/icons/springboot.png"} width={30} height={30} alt="Springboot-icon" className="badge-icon" />
           <p>Spring Boot</p>
-        </div>
+        </div> */}
 
         <div className="badges">
           <Image src={"/icons/java.png"} width={30} height={30} alt="Java-icon" className="badge-icon" />

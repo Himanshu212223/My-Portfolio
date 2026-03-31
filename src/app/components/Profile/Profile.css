@@ -128,17 +128,51 @@
   cursor: pointer;
 }
 
-@media only screen and (min-width: 771px) and (max-width: 1024px) {
+@media only screen and (min-width: 771px) and (max-width: 1440px) {
   .profile {
-    min-height: 90vh;
+    height: 96vh;
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: tan; */
+  }
+  .top-profile {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-flow: column;
+    /* background-color: purple; */
+  }
+  .bottom-profile {
+    height: 50%;
+    display: inherit;
+    margin-top: 20px;
+    padding: 5px 0;
+    width: 90%;
+    border-top: 1px solid var(--dark-shade2);
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+  }
+  .bottom-profile-hide {
+    height: 50%;
+    display: inherit;
+    margin-top: 20px;
+    padding: 5px 0;
+    width: 90%;
+    border-top: 1px solid var(--dark-shade2);
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
   }
 }
-
 
 /* For Tablets */
 
@@ -200,7 +234,6 @@
     align-items: center;
   }
 }
-
 
 /* For Smart Phones */
 
