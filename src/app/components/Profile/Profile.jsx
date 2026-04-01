@@ -80,7 +80,7 @@ const Profile = () => {
           <a href="https://www.linkedin.com/in/himanshu-9556261b7/" target="_blank" className="icon-pack-nav">
             <Image src={"/icons/linkedin.svg"} width={20} height={20} alt="mail-icon" className="icon" />
           </a>
-          <a href="https://github.com/Himanshu212223" target="_blank" className="icon-pack-nav">
+          <a href="https://github.com/HimanshuSap124" target="_blank" className="icon-pack-nav">
             <Image src={"/icons/github.svg"} width={20} height={20} alt="mail-icon" className="icon" />
           </a>
         </div>
